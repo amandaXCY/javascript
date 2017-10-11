@@ -1,4 +1,4 @@
-## 会改变原来的数组
+## 数组操作时，直接操作原数据
 ```
 Array.prototype.copyWithin()
 Array.prototype.fill()
@@ -12,10 +12,11 @@ Array.prototype.splice()
 ```
 
 
-##数据的所有方法
+## 数据的所有方法
+[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array)
 ```
 Array.from()
-Array.isArray()
+Array.isArray()g
 Array.observe()
 Array.of()
 Array.prototype.concat()
