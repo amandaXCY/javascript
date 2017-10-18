@@ -34,6 +34,7 @@ console.log(o.name);
  上述代码先创建了一个对象，然后将其赋值非变量o，接着又用构造器创建了一个对象，并修改其属性，然后将其复制给变量对象o，然后访问o的时候name被修改为b了。这里o的引用指向了新对象b;
 
  再看下面这个例子大家就可以明白了
+ 
 ```
 function quoteFn(obj){
     var o = new Object();
